@@ -14,16 +14,17 @@ html {
 }
 
 header {
-    margin: 0 4rem;
+    margin: 0rem;
     letter-spacing: 0.4rem;
     text-align: center;
-    border-bottom: 1px solid #937DC2;
-    border-right: 1px solid #937DC2;
-    border-left: 1px solid #937DC2;
-    padding: 0.9rem;
-    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
+    border-bottom: 2px solid #937DC2;
+    border-right: 2px solid #937DC2;
+    border-left: 2px solid #937DC2;
+    border-top: 2px solid #937DC2;
+    padding: 0.3rem;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
     text-transform: uppercase;
-    font-size: 1.2rem;
+    font-size: 2rem;
 }
 
 body {
@@ -38,7 +39,7 @@ cite {
 }
 
 p {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
 }
 
 .imageCard {
@@ -83,6 +84,6 @@ p {
     }
     
     .imageCard {
-        max-width: 28%;
+        max-width: 25%;
     }
 }
