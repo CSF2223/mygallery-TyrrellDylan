@@ -17,14 +17,26 @@ header {
     margin: 0rem;
     letter-spacing: 0.4rem;
     text-align: center;
-    border-bottom: 2px solid #937DC2;
+    border-bottom: 1px solid black;
     border-right: 2px solid #937DC2;
     border-left: 2px solid #937DC2;
     border-top: 2px solid #937DC2;
     padding: 0.3rem;
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 15px 15px 15px orange;
     text-transform: uppercase;
     font-size: 2rem;
+}
+
+h1 {
+  text-shadow: 0 0 3px orange;
+}
+
+h2 {
+  text-shadow: 0 0 3px orange;
+}
+
+h4 {
+  text-shadow: 0 0 3px orange;
 }
 
 body {
@@ -48,24 +60,33 @@ p {
     justify-content: center;
     align-items: center;
     margin: 7rem 4rem;
+    border-color: orange;
+    padding: 0rem;
 }
 
 .imageCard img {
     width: 100%;
     height: auto;
-    border-radius: 30px;
+    border-radius: 0px;
+     border-color: orange;
+    border-right: 2px solid orange;
+    border-left: 2px solid orange;
+    border-top: 1px solid orange;
+    border-bottom: 0.5px solid orange;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 3px 3px 5px orange;
+
 }
 
 .imageCard a {
-    text-decoration: none;
+    text-decoration: underline;
     color: #FFFF00;
 }
 
 .cardText {
     color: #FFE6F7;
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 30px;
     margin-top: 2rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -80,7 +101,7 @@ p {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        flex-wrap: wrap;
+       flex-wrap: wrap;
     }
     
     .imageCard {
