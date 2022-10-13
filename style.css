@@ -54,6 +54,12 @@ p {
     font-size: 1.8rem;
 }
 
+.text {
+   border-right: 4px solid orange;
+    border-left: 4px solid orange;
+    border-top: 2px solid orange;
+}
+
 .imageCard {
     display: flex;
     flex-direction: column;
@@ -89,7 +95,7 @@ p {
     padding: 1rem;
     border-radius: 30px;
     margin-top: 2rem;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 4px 4px 5px orange;
 }
 
 @media (min-width: 768px) {
