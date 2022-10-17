@@ -1,7 +1,117 @@
 /*
-Color Palette:
-background color:  
-font color:        
-secondary color:   
-tertiary color:    
+Color Palette: #937DC2
+background color: #937DC2
+font color: #FFE6F7      
+secondary color: #C689C6
+tertiary color: #FFABE1  
 */
+/*finished*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+html {
+    font-size: 62.5%;    /* Default font size is 16px -  62.5% of 16 is 10px -
+                            1 rem (relative unit) now will be equivalent to 10px) */
+}
+
+header {
+    margin: 0rem;
+    letter-spacing: 0.4rem;
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-right: 2px solid #937DC2;
+    border-left: 2px solid #937DC2;
+    border-top: 2px solid #937DC2;
+    padding: 0.3rem;
+    box-shadow: 15px 15px 15px orange;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+h1 {
+  text-shadow: 0 0 3px orange;
+}
+
+h2 {
+  text-shadow: 0 0 3px orange;
+}
+
+h4 {
+  text-shadow: 0 0 3px orange;
+}
+
+body {
+    background-color: #937DC2;
+    color: #FFE6F7;
+    font-family: 'Libre Baskerville', serif;
+    margin: 0;
+}
+
+cite {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.8rem;
+}
+
+.text {
+   border-right: 4px solid orange;
+    border-left: 4px solid orange;
+    border-top: 2px solid orange;
+}
+
+.imageCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 7rem 4rem;
+    border-color: orange;
+    padding: 0rem;
+}
+
+.imageCard img {
+    width: 100%;
+    height: auto;
+    border-radius: 0px;
+     border-color: orange;
+    border-right: 2px solid orange;
+    border-left: 2px solid orange;
+    border-top: 1px solid orange;
+    border-bottom: 0.5px solid orange;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 3px 3px 5px orange;
+
+}
+
+.imageCard a {
+    text-decoration: underline;
+    color: #FFFF00;
+}
+
+.cardText {
+    color: #FFE6F7;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 30px;
+    margin-top: 2rem;
+    box-shadow: 4px 4px 5px orange;
+}
+
+@media (min-width: 768px) {
+    header {
+        font-size: 1.6rem;
+    }
+    
+    .gallery {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+       flex-wrap: wrap;
+    }
+    
+    .imageCard {
+        max-width: 25%;
+    }
+}
